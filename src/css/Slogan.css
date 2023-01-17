@@ -1,0 +1,14 @@
+#Slogan {
+    font-size: 3em;
+    margin: 0.5em auto;
+}
+
+#Slogan p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Slogan #Slogan-highlight {
+    color: #00DDFF;
+    font-weight: bold;
+}
