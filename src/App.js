@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='Image-bound'>
+        <div className='Image'>Học Web Chuẩn</div>
+      </div>
+      <div className='Content-bound'>
+        <h1 className='Uppercase'>Vestibulum Ullamcorper ut leo quis</h1>
+        <p>In HTML, the default display property value is taken from the HTML specifications or from the browser/user default style sheet. The default value in XML is inline, including SVG elements.In HTML, the default display property value is taken from the HTML specifications or from the browser/user default style sheet. The default value in XML is inline, including SVG elements.</p>
+        <button className='Button Uppercase'>Detail</button>
+      </div>
     </div>
   );
 }
