@@ -4,20 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h2>Learn more about beautiful furniture web design combinations</h2>
+        <div className='Image'>Học Web Chuẩn</div>
+        <h3>Today we well teach you how to find professional materials for your furniture website design.</h3>
+        <p className='Content'>A demonstration of how to use the contents property value. In the following example the .a container will disappear, and making the child elements (.b) children of the element the next level up in the DOM:</p>
+        <p><button className='Button'>Read More</button></p>
     </div>
   );
 }
