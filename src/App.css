@@ -1,38 +1,92 @@
 .App {
   text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: antiquewhite;
+  /* display: block; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:link {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.Uppercase {
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Title {
+  margin: 20px auto;
+  /* display: inline-block; */
+}
+
+.Title::after {
+  content: "";
+  background-color: cadetblue;
+  width: 150px;
+  height: 3px;
+  display: block;
+  margin: 20px auto;
+}
+
+.Menu {
+  background-color: aliceblue;
+}
+
+.Menu ul li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  color: dimgray;
+}
+
+.Menu a {
+  color: dimgray;
+}
+
+.Menu a:hover {
+  color: aqua;
+}
+
+.Menu .All a {
+  color: aqua;
+}
+
+.Thumnail-group {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Thumnail-group .Thumnail {
+  margin: 20px;
+  background-color: red;
+  border-radius: 5%;
+  float: left;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Thumnail-group .Thumnail:nth-child(3n+0) {
+  margin-right: 0;
 }
+.Thumnail-group .Thumnail:nth-child(3n-2) {
+  margin-left: 0;
+}
+
+
+/* .Thumnail-group .Thumnail:nth-last-of-type(-n+3) {
+  margin-bottom: 0;
+} */
