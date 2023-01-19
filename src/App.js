@@ -1,23 +1,63 @@
-import logo from './logo.svg';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLeaf, faDesktop } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <ul>
+          <li>
+            <div className='Component'>
+              <FontAwesomeIcon className='Image' icon={faLeaf}/>
+              <div className='Title'>UI/UX Design</div>
+              <div className='Content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis, vulputate magna.</div>
+            </div>
+          </li>
+          
+          <li>
+            <div className='Component'>
+              <FontAwesomeIcon className='Image' icon={faDesktop}/>
+              <div className='Title'>UI/UX Design</div>
+              <div className='Content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis, vulputate magna.</div>
+            </div>
+          </li>
+          
+          <li>
+            <div className='Component'>
+              <FontAwesomeIcon className='Image' icon={faLeaf}/>
+              <div className='Title'>UI/UX Design</div>
+              <div className='Content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis, vulputate magna.</div>
+            </div>
+          </li>
+          <li>
+            <div className='Component'>
+              <FontAwesomeIcon className='Image' icon={faLeaf}/>
+              <div className='Title'>UI/UX Design</div>
+              <div className='Content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis, vulputate magna.</div>
+            </div>
+          </li>
+          <li>
+            <div className='Component'>
+              <FontAwesomeIcon className='Image' icon={faLeaf}/>
+              <div className='Title'>UI/UX Design</div>
+              <div className='Content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis, vulputate magna.</div>
+            </div>
+          </li>
+          <li>
+            <div className='Component'>
+              <FontAwesomeIcon className='Image' icon={faLeaf}/>
+              <div className='Title'>UI/UX Design</div>
+              <div className='Content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis, vulputate magna.</div>
+            </div>
+          </li>
+          <li>
+            <div className='Component'>
+              <FontAwesomeIcon className='Image' icon={faLeaf}/>
+              <div className='Title'>UI/UX Design</div>
+              <div className='Content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis, vulputate magna.</div>
+            </div>
+          </li>
+        </ul>
     </div>
   );
 }

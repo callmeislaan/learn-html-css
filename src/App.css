@@ -1,38 +1,62 @@
 .App {
   text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+  padding: 10px;
+  height: 80vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul li {
+  background-color: whitesmoke;
+  margin: 17px;
+  float: left;
+  width: 310px;
+  height: 150px;
+  display: table;
 }
 
-.App-link {
-  color: #61dafb;
+ul li:nth-child(3n+0) {
+  margin-right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li:nth-child(3n-2) {
+  margin-left: 0;
+}
+
+ul li:nth-child(-n + 3) {
+  margin-top: 0; 
+}
+
+.Component {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.Component .Image {
+  border-width: 1px;
+  border-color: #399;
+  border-radius: 50%;
+  border-style: solid;
+  padding: 10px;
+  color: #399;
+  font-size: x-large;
+}
+
+.Component .Title {
+  font-size: large;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.Component .Content {
+  font-size: small;
 }
