@@ -4,20 +4,29 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className='Service'>
+        <h2 className='Title'>Our Service</h2>
+        <p className='Content'></p>
+        <div className='Element-group'>
+          <div className='Element'>
+            <div className='Element-image'>Học Web chuẩn</div>
+            <div className='Element-title'>Smart Swatch Editions</div>
+            <div className='Element-content'>Augue et dapibus. Nullam venenatis ornare arcu at placerat. Ut eget metus velit. Nam porttitor, arcu eu efficitur ornare, turpis nulla vehicula mauris.</div>
+          </div>
+
+          <div className='Element'>
+            <div className='Element-image'>Học Web chuẩn</div>
+            <div className='Element-title'>Smart Swatch Editions</div>
+            <div className='Element-content'>Augue et dapibus. Nullam venenatis ornare arcu at placerat. Ut eget metus velit. Nam porttitor, arcu eu efficitur ornare, turpis nulla vehicula mauris.</div>
+          </div>
+
+          <div className='Element'>
+            <div className='Element-image'>Học Web chuẩn</div>
+            <div className='Element-title'>Smart Swatch Editions</div>
+            <div className='Element-content'>Augue et dapibus. Nullam venenatis ornare arcu at placerat. Ut eget metus velit. Nam porttitor, arcu eu efficitur ornare, turpis nulla vehicula mauris.</div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
