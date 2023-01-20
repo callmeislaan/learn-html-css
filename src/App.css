@@ -4,12 +4,14 @@
   background-color: whitesmoke;
   margin: 50px auto;
   padding: 20px;
-  display: flex;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 ul {
@@ -17,9 +19,12 @@ ul {
 }
 
 li:not(li:last-child) {
-  margin: 20px auto;
   border-bottom: 1px red dashed;
   padding-bottom: 10px;
+}
+
+li:not(li:first-child) {
+  margin: 20px auto;
 }
 
 .Image {
@@ -37,7 +42,7 @@ li:not(li:last-child) {
 .Component {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .Content-group {
@@ -48,5 +53,53 @@ li:not(li:last-child) {
 .Title {
   font-weight: bold;
   font-size: larger;
+  margin-bottom: 10px;
+}
+
+.Top {
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.Top h1 {
   margin: 10px auto;
+  font-size: xxx-large;
+}
+
+.Top p {
+  font-size: larger;
+}
+
+.Bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Left {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Left .Left-image {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+}
+
+.Left h2 {
+  margin: 10px auto;
+}
+
+.Left p {
+  margin: 5px auto;
+}
+
+.Right {
+  width: 53%;
 }
