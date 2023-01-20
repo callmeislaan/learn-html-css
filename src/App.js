@@ -4,20 +4,60 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul>
+        <li>
+        <div className='Component'>
+          <div className='Image'>H</div>
+          <div className='Content-group'>
+            <div className='Title'>
+              CLIMATE CHANGE
+            </div>
+            <div className='Content'>
+              Etiam cras ac sapien ipsum. Morbi scelerisque efficitur nibh a fringilla. Nam et diam vel justo praesent rhoncus volutpat turpis vitae hendrerit.
+            </div>
+          </div>
+        </div>
+        </li>
+        <li>
+        <div className='Component'>
+          <div className='Image'>H</div>
+          <div className='Content-group'>
+            <div className='Title'>
+              CLIMATE CHANGE
+            </div>
+            <div className='Content'>
+              Etiam cras ac sapien ipsum. Morbi scelerisque efficitur nibh a fringilla. Nam et diam vel justo praesent rhoncus volutpat turpis vitae hendrerit.
+            </div>
+          </div>
+        </div>
+        </li>
+        <li>
+        <div className='Component'>
+          <div className='Image'>H</div>
+          <div className='Content-group'>
+            <div className='Title'>
+              CLIMATE CHANGE
+            </div>
+            <div className='Content'>
+              Etiam cras ac sapien ipsum. Morbi scelerisque efficitur nibh a fringilla. Nam et diam vel justo praesent rhoncus volutpat turpis vitae hendrerit.
+            </div>
+          </div>
+        </div>
+        </li>
+        <li>
+        <div className='Component'>
+          <div className='Image'>H</div>
+          <div className='Content-group'>
+            <div className='Title'>
+              CLIMATE CHANGE
+            </div>
+            <div className='Content'>
+              Etiam cras ac sapien ipsum. Morbi scelerisque efficitur nibh a fringilla. Nam et diam vel justo praesent rhoncus volutpat turpis vitae hendrerit.
+            </div>
+          </div>
+        </div>
+        </li>
+      </ul>
     </div>
   );
 }
